@@ -1,0 +1,1265 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/animate.min.css",
+      "PackagePath": "staticwebassets/css/animate.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/magnific.min.css",
+      "PackagePath": "staticwebassets/css/magnific.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/nice-select.min.css",
+      "PackagePath": "staticwebassets/css/nice-select.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/responsive.css",
+      "PackagePath": "staticwebassets/css/responsive.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/css/swiper.min.css",
+      "PackagePath": "staticwebassets/css/swiper.min.css"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/1.png",
+      "PackagePath": "staticwebassets/img/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/404.png",
+      "PackagePath": "staticwebassets/img/404.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/1.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/2.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/3.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/4.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/5.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about-icon-img/6.png",
+      "PackagePath": "staticwebassets/img/about-icon-img/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/1.png",
+      "PackagePath": "staticwebassets/img/about/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/10.png",
+      "PackagePath": "staticwebassets/img/about/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/2.png",
+      "PackagePath": "staticwebassets/img/about/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/3.png",
+      "PackagePath": "staticwebassets/img/about/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/4.png",
+      "PackagePath": "staticwebassets/img/about/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/5.png",
+      "PackagePath": "staticwebassets/img/about/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/6.png",
+      "PackagePath": "staticwebassets/img/about/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/7.png",
+      "PackagePath": "staticwebassets/img/about/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/8.png",
+      "PackagePath": "staticwebassets/img/about/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/9.png",
+      "PackagePath": "staticwebassets/img/about/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/about/bg.png",
+      "PackagePath": "staticwebassets/img/about/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-2/1.png",
+      "PackagePath": "staticwebassets/img/banner-2/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-2/2.png",
+      "PackagePath": "staticwebassets/img/banner-2/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-2/3.png",
+      "PackagePath": "staticwebassets/img/banner-2/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-2/4.png",
+      "PackagePath": "staticwebassets/img/banner-2/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-2/bg.png",
+      "PackagePath": "staticwebassets/img/banner-2/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/1.png",
+      "PackagePath": "staticwebassets/img/banner-3/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/animate-1.png",
+      "PackagePath": "staticwebassets/img/banner-3/animate-1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/animate-2.png",
+      "PackagePath": "staticwebassets/img/banner-3/animate-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/animate-3.png",
+      "PackagePath": "staticwebassets/img/banner-3/animate-3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/animate-4.png",
+      "PackagePath": "staticwebassets/img/banner-3/animate-4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/animate-5.png",
+      "PackagePath": "staticwebassets/img/banner-3/animate-5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner-3/bg.png",
+      "PackagePath": "staticwebassets/img/banner-3/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/1.png",
+      "PackagePath": "staticwebassets/img/banner/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/2.png",
+      "PackagePath": "staticwebassets/img/banner/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/3.png",
+      "PackagePath": "staticwebassets/img/banner/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/4.png",
+      "PackagePath": "staticwebassets/img/banner/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/5.png",
+      "PackagePath": "staticwebassets/img/banner/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/banner/6.png",
+      "PackagePath": "staticwebassets/img/banner/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/bg/1.png",
+      "PackagePath": "staticwebassets/img/bg/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/bg/2.png",
+      "PackagePath": "staticwebassets/img/bg/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/bg/3.png",
+      "PackagePath": "staticwebassets/img/bg/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/bg/4.png",
+      "PackagePath": "staticwebassets/img/bg/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/bg/5.png",
+      "PackagePath": "staticwebassets/img/bg/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/1.png",
+      "PackagePath": "staticwebassets/img/blog/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/2.png",
+      "PackagePath": "staticwebassets/img/blog/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/3.png",
+      "PackagePath": "staticwebassets/img/blog/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/7.png",
+      "PackagePath": "staticwebassets/img/blog/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/8.png",
+      "PackagePath": "staticwebassets/img/blog/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/arrow.png",
+      "PackagePath": "staticwebassets/img/blog/arrow.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/author.png",
+      "PackagePath": "staticwebassets/img/blog/author.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/blog/author2.png",
+      "PackagePath": "staticwebassets/img/blog/author2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/btn-arrow.png",
+      "PackagePath": "staticwebassets/img/btn-arrow.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/btn-bg-2.png",
+      "PackagePath": "staticwebassets/img/btn-bg-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/btn-bg.png",
+      "PackagePath": "staticwebassets/img/btn-bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/1.png",
+      "PackagePath": "staticwebassets/img/creator-2/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/10.png",
+      "PackagePath": "staticwebassets/img/creator-2/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/11.png",
+      "PackagePath": "staticwebassets/img/creator-2/11.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/12.png",
+      "PackagePath": "staticwebassets/img/creator-2/12.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/13.png",
+      "PackagePath": "staticwebassets/img/creator-2/13.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/14.png",
+      "PackagePath": "staticwebassets/img/creator-2/14.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/2.png",
+      "PackagePath": "staticwebassets/img/creator-2/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/3.png",
+      "PackagePath": "staticwebassets/img/creator-2/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/4.png",
+      "PackagePath": "staticwebassets/img/creator-2/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/5.png",
+      "PackagePath": "staticwebassets/img/creator-2/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/6.png",
+      "PackagePath": "staticwebassets/img/creator-2/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/7.png",
+      "PackagePath": "staticwebassets/img/creator-2/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/8.png",
+      "PackagePath": "staticwebassets/img/creator-2/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/9.png",
+      "PackagePath": "staticwebassets/img/creator-2/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-1.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-2.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-3.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-4.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-5.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-6.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-7.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator-2/u-8.png",
+      "PackagePath": "staticwebassets/img/creator-2/u-8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/1.png",
+      "PackagePath": "staticwebassets/img/creator/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/10.png",
+      "PackagePath": "staticwebassets/img/creator/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/11.png",
+      "PackagePath": "staticwebassets/img/creator/11.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/4.png",
+      "PackagePath": "staticwebassets/img/creator/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/5.png",
+      "PackagePath": "staticwebassets/img/creator/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/6.png",
+      "PackagePath": "staticwebassets/img/creator/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/7.png",
+      "PackagePath": "staticwebassets/img/creator/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/8.png",
+      "PackagePath": "staticwebassets/img/creator/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/9.png",
+      "PackagePath": "staticwebassets/img/creator/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/bg.png",
+      "PackagePath": "staticwebassets/img/creator/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/creator/bg2.png",
+      "PackagePath": "staticwebassets/img/creator/bg2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/favicon.png",
+      "PackagePath": "staticwebassets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/1.png",
+      "PackagePath": "staticwebassets/img/feature/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/2.png",
+      "PackagePath": "staticwebassets/img/feature/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/3.png",
+      "PackagePath": "staticwebassets/img/feature/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/4.png",
+      "PackagePath": "staticwebassets/img/feature/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/5.png",
+      "PackagePath": "staticwebassets/img/feature/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/6.png",
+      "PackagePath": "staticwebassets/img/feature/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/7.png",
+      "PackagePath": "staticwebassets/img/feature/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/feature/8.png",
+      "PackagePath": "staticwebassets/img/feature/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/1.png",
+      "PackagePath": "staticwebassets/img/footer/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/2.png",
+      "PackagePath": "staticwebassets/img/footer/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/3.png",
+      "PackagePath": "staticwebassets/img/footer/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/4.png",
+      "PackagePath": "staticwebassets/img/footer/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/5.png",
+      "PackagePath": "staticwebassets/img/footer/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/6.png",
+      "PackagePath": "staticwebassets/img/footer/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/7.png",
+      "PackagePath": "staticwebassets/img/footer/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/bg-2.png",
+      "PackagePath": "staticwebassets/img/footer/bg-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/bg.png",
+      "PackagePath": "staticwebassets/img/footer/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/footer/line.png",
+      "PackagePath": "staticwebassets/img/footer/line.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/1.png",
+      "PackagePath": "staticwebassets/img/gallery-2/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/2.png",
+      "PackagePath": "staticwebassets/img/gallery-2/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/3.png",
+      "PackagePath": "staticwebassets/img/gallery-2/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/4.png",
+      "PackagePath": "staticwebassets/img/gallery-2/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/5.png",
+      "PackagePath": "staticwebassets/img/gallery-2/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-2/6.png",
+      "PackagePath": "staticwebassets/img/gallery-2/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-3/1.png",
+      "PackagePath": "staticwebassets/img/gallery-3/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-3/2.png",
+      "PackagePath": "staticwebassets/img/gallery-3/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-3/3.png",
+      "PackagePath": "staticwebassets/img/gallery-3/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-3/4.png",
+      "PackagePath": "staticwebassets/img/gallery-3/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery-3/5.png",
+      "PackagePath": "staticwebassets/img/gallery-3/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery/1.png",
+      "PackagePath": "staticwebassets/img/gallery/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery/2.png",
+      "PackagePath": "staticwebassets/img/gallery/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery/3.png",
+      "PackagePath": "staticwebassets/img/gallery/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery/4.png",
+      "PackagePath": "staticwebassets/img/gallery/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/gallery/5.png",
+      "PackagePath": "staticwebassets/img/gallery/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/1.png",
+      "PackagePath": "staticwebassets/img/icon/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/11.png",
+      "PackagePath": "staticwebassets/img/icon/11.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/12.png",
+      "PackagePath": "staticwebassets/img/icon/12.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/13.png",
+      "PackagePath": "staticwebassets/img/icon/13.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/14.png",
+      "PackagePath": "staticwebassets/img/icon/14.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/15.png",
+      "PackagePath": "staticwebassets/img/icon/15.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/16.png",
+      "PackagePath": "staticwebassets/img/icon/16.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/17.png",
+      "PackagePath": "staticwebassets/img/icon/17.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/18.png",
+      "PackagePath": "staticwebassets/img/icon/18.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/2.png",
+      "PackagePath": "staticwebassets/img/icon/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/3.png",
+      "PackagePath": "staticwebassets/img/icon/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/4.png",
+      "PackagePath": "staticwebassets/img/icon/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/5.png",
+      "PackagePath": "staticwebassets/img/icon/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/6.png",
+      "PackagePath": "staticwebassets/img/icon/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/7.png",
+      "PackagePath": "staticwebassets/img/icon/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/8.png",
+      "PackagePath": "staticwebassets/img/icon/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/nft-icon1.png",
+      "PackagePath": "staticwebassets/img/icon/nft-icon1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/icon/shalep-1.png",
+      "PackagePath": "staticwebassets/img/icon/shalep-1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/1.png",
+      "PackagePath": "staticwebassets/img/instagram/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/2.png",
+      "PackagePath": "staticwebassets/img/instagram/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/3.png",
+      "PackagePath": "staticwebassets/img/instagram/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/4.png",
+      "PackagePath": "staticwebassets/img/instagram/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/5.png",
+      "PackagePath": "staticwebassets/img/instagram/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/instagram/6.png",
+      "PackagePath": "staticwebassets/img/instagram/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/login.png",
+      "PackagePath": "staticwebassets/img/login.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/logo.png",
+      "PackagePath": "staticwebassets/img/logo.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/partner/1.png",
+      "PackagePath": "staticwebassets/img/partner/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/partner/2.png",
+      "PackagePath": "staticwebassets/img/partner/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/partner/3.png",
+      "PackagePath": "staticwebassets/img/partner/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/partner/4.png",
+      "PackagePath": "staticwebassets/img/partner/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/payment-method.png",
+      "PackagePath": "staticwebassets/img/payment-method.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/platform/1.png",
+      "PackagePath": "staticwebassets/img/platform/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/platform/2.png",
+      "PackagePath": "staticwebassets/img/platform/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/platform/3.png",
+      "PackagePath": "staticwebassets/img/platform/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/1.png",
+      "PackagePath": "staticwebassets/img/product/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/2.png",
+      "PackagePath": "staticwebassets/img/product/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/3.png",
+      "PackagePath": "staticwebassets/img/product/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/4.png",
+      "PackagePath": "staticwebassets/img/product/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/5.png",
+      "PackagePath": "staticwebassets/img/product/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/6.png",
+      "PackagePath": "staticwebassets/img/product/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/7.png",
+      "PackagePath": "staticwebassets/img/product/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/product/8.png",
+      "PackagePath": "staticwebassets/img/product/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/roadmap/1.svg",
+      "PackagePath": "staticwebassets/img/roadmap/1.svg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/roadmap/2.svg",
+      "PackagePath": "staticwebassets/img/roadmap/2.svg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/roadmap/bg.png",
+      "PackagePath": "staticwebassets/img/roadmap/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/schedule.png",
+      "PackagePath": "staticwebassets/img/schedule.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/1.png",
+      "PackagePath": "staticwebassets/img/service/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/2.png",
+      "PackagePath": "staticwebassets/img/service/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/3.png",
+      "PackagePath": "staticwebassets/img/service/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/4.png",
+      "PackagePath": "staticwebassets/img/service/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/5.png",
+      "PackagePath": "staticwebassets/img/service/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/6.png",
+      "PackagePath": "staticwebassets/img/service/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/service/7.png",
+      "PackagePath": "staticwebassets/img/service/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/shape/1.png",
+      "PackagePath": "staticwebassets/img/shape/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/shape/2.png",
+      "PackagePath": "staticwebassets/img/shape/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/1.png",
+      "PackagePath": "staticwebassets/img/team/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/2.png",
+      "PackagePath": "staticwebassets/img/team/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/3.png",
+      "PackagePath": "staticwebassets/img/team/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/4.png",
+      "PackagePath": "staticwebassets/img/team/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/bg-2.png",
+      "PackagePath": "staticwebassets/img/team/bg-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/bg.png",
+      "PackagePath": "staticwebassets/img/team/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/info1.png",
+      "PackagePath": "staticwebassets/img/team/info1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/info2.png",
+      "PackagePath": "staticwebassets/img/team/info2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/team-d-1.png",
+      "PackagePath": "staticwebassets/img/team/team-d-1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/team-d-2.png",
+      "PackagePath": "staticwebassets/img/team/team-d-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/team/team-d-3.png",
+      "PackagePath": "staticwebassets/img/team/team-d-3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/1.png",
+      "PackagePath": "staticwebassets/img/testimonial/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/2.png",
+      "PackagePath": "staticwebassets/img/testimonial/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/3.png",
+      "PackagePath": "staticwebassets/img/testimonial/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/4.png",
+      "PackagePath": "staticwebassets/img/testimonial/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/5.png",
+      "PackagePath": "staticwebassets/img/testimonial/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/6.png",
+      "PackagePath": "staticwebassets/img/testimonial/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/7.png",
+      "PackagePath": "staticwebassets/img/testimonial/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/testimonial/8.png",
+      "PackagePath": "staticwebassets/img/testimonial/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/1.png",
+      "PackagePath": "staticwebassets/img/top-auction/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/10.png",
+      "PackagePath": "staticwebassets/img/top-auction/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/2.png",
+      "PackagePath": "staticwebassets/img/top-auction/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/3.png",
+      "PackagePath": "staticwebassets/img/top-auction/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/4.png",
+      "PackagePath": "staticwebassets/img/top-auction/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/5.png",
+      "PackagePath": "staticwebassets/img/top-auction/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/6.png",
+      "PackagePath": "staticwebassets/img/top-auction/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/7.png",
+      "PackagePath": "staticwebassets/img/top-auction/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/8.png",
+      "PackagePath": "staticwebassets/img/top-auction/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-auction/9.png",
+      "PackagePath": "staticwebassets/img/top-auction/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/1.png",
+      "PackagePath": "staticwebassets/img/top-seller/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/2.png",
+      "PackagePath": "staticwebassets/img/top-seller/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/3.png",
+      "PackagePath": "staticwebassets/img/top-seller/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/4.png",
+      "PackagePath": "staticwebassets/img/top-seller/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/bg.png",
+      "PackagePath": "staticwebassets/img/top-seller/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/top-seller/bg2.png",
+      "PackagePath": "staticwebassets/img/top-seller/bg2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/1.png",
+      "PackagePath": "staticwebassets/img/tournament/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/10.png",
+      "PackagePath": "staticwebassets/img/tournament/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/11.png",
+      "PackagePath": "staticwebassets/img/tournament/11.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/12.png",
+      "PackagePath": "staticwebassets/img/tournament/12.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/13.png",
+      "PackagePath": "staticwebassets/img/tournament/13.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/2.png",
+      "PackagePath": "staticwebassets/img/tournament/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/3.png",
+      "PackagePath": "staticwebassets/img/tournament/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/4.png",
+      "PackagePath": "staticwebassets/img/tournament/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/5.png",
+      "PackagePath": "staticwebassets/img/tournament/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/6.png",
+      "PackagePath": "staticwebassets/img/tournament/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/7.png",
+      "PackagePath": "staticwebassets/img/tournament/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/8.png",
+      "PackagePath": "staticwebassets/img/tournament/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/9.png",
+      "PackagePath": "staticwebassets/img/tournament/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/bg-2.png",
+      "PackagePath": "staticwebassets/img/tournament/bg-2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/bg-3.png",
+      "PackagePath": "staticwebassets/img/tournament/bg-3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/tournament/bg.png",
+      "PackagePath": "staticwebassets/img/tournament/bg.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/1.png",
+      "PackagePath": "staticwebassets/img/wallet/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/10.png",
+      "PackagePath": "staticwebassets/img/wallet/10.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/11.png",
+      "PackagePath": "staticwebassets/img/wallet/11.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/12.png",
+      "PackagePath": "staticwebassets/img/wallet/12.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/13.png",
+      "PackagePath": "staticwebassets/img/wallet/13.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/14.png",
+      "PackagePath": "staticwebassets/img/wallet/14.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/15.png",
+      "PackagePath": "staticwebassets/img/wallet/15.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/16.png",
+      "PackagePath": "staticwebassets/img/wallet/16.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/17.png",
+      "PackagePath": "staticwebassets/img/wallet/17.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/2.png",
+      "PackagePath": "staticwebassets/img/wallet/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/3.png",
+      "PackagePath": "staticwebassets/img/wallet/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/4.png",
+      "PackagePath": "staticwebassets/img/wallet/4.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/5.png",
+      "PackagePath": "staticwebassets/img/wallet/5.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/6.png",
+      "PackagePath": "staticwebassets/img/wallet/6.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/7.png",
+      "PackagePath": "staticwebassets/img/wallet/7.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/8.png",
+      "PackagePath": "staticwebassets/img/wallet/8.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/wallet/9.png",
+      "PackagePath": "staticwebassets/img/wallet/9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/widget/1.png",
+      "PackagePath": "staticwebassets/img/widget/1.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/widget/2.png",
+      "PackagePath": "staticwebassets/img/widget/2.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/widget/3.png",
+      "PackagePath": "staticwebassets/img/widget/3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/widget/author.png",
+      "PackagePath": "staticwebassets/img/widget/author.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/img/widget/signature.png",
+      "PackagePath": "staticwebassets/img/widget/signature.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/ScrollTrigger.min.js",
+      "PackagePath": "staticwebassets/js/ScrollTrigger.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/SplitText.min.js",
+      "PackagePath": "staticwebassets/js/SplitText.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/counter-up.min.js",
+      "PackagePath": "staticwebassets/js/counter-up.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/fontawesome.min.js",
+      "PackagePath": "staticwebassets/js/fontawesome.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/gsap.min.js",
+      "PackagePath": "staticwebassets/js/gsap.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/lenis.min.js",
+      "PackagePath": "staticwebassets/js/lenis.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/magnific.min.js",
+      "PackagePath": "staticwebassets/js/magnific.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/nice-select.min.js",
+      "PackagePath": "staticwebassets/js/nice-select.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/swiper.min.js",
+      "PackagePath": "staticwebassets/js/swiper.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/waypoint.min.js",
+      "PackagePath": "staticwebassets/js/waypoint.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/js/wow.min.js",
+      "PackagePath": "staticwebassets/js/wow.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/lib/jquery-validation/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/lib/jquery/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery.min.js"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/221dadd8-2c91-4c12-9d50-e3fe4ffe68ff.png",
+      "PackagePath": "staticwebassets/uploads/nfts/221dadd8-2c91-4c12-9d50-e3fe4ffe68ff.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/3a080b5a-0752-4a3f-b66d-e91879f6408c.png",
+      "PackagePath": "staticwebassets/uploads/nfts/3a080b5a-0752-4a3f-b66d-e91879f6408c.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/507572b9-46a5-413f-b094-ad05f0062cf9.jpg",
+      "PackagePath": "staticwebassets/uploads/nfts/507572b9-46a5-413f-b094-ad05f0062cf9.jpg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/5ad10e96-eadf-47c9-9497-85d9578f9c19.png",
+      "PackagePath": "staticwebassets/uploads/nfts/5ad10e96-eadf-47c9-9497-85d9578f9c19.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/688e465f-34c0-43b0-8c70-14a92b9b84ce.png",
+      "PackagePath": "staticwebassets/uploads/nfts/688e465f-34c0-43b0-8c70-14a92b9b84ce.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/6b4f6389-d4c5-4161-9d8c-2d3fa2fa8950.png",
+      "PackagePath": "staticwebassets/uploads/nfts/6b4f6389-d4c5-4161-9d8c-2d3fa2fa8950.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/7c55fbef-ad1d-4f34-9479-b77494f8fd78.jpg",
+      "PackagePath": "staticwebassets/uploads/nfts/7c55fbef-ad1d-4f34-9479-b77494f8fd78.jpg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/8799c7bf-a599-441c-a3f4-de50c02b64e9.png",
+      "PackagePath": "staticwebassets/uploads/nfts/8799c7bf-a599-441c-a3f4-de50c02b64e9.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/91f91d0c-63b1-4599-938e-6fc4c9c949c3.png",
+      "PackagePath": "staticwebassets/uploads/nfts/91f91d0c-63b1-4599-938e-6fc4c9c949c3.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/9d35a8c5-a5b9-410e-809f-fa07d23ac070.png",
+      "PackagePath": "staticwebassets/uploads/nfts/9d35a8c5-a5b9-410e-809f-fa07d23ac070.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/a51c4499-a8e4-4824-ba3a-a259bd1ddedc.jpeg",
+      "PackagePath": "staticwebassets/uploads/nfts/a51c4499-a8e4-4824-ba3a-a259bd1ddedc.jpeg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/ac0b335c-22bd-42a7-930e-5f1bf42d0830.png",
+      "PackagePath": "staticwebassets/uploads/nfts/ac0b335c-22bd-42a7-930e-5f1bf42d0830.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/adae26a7-3269-4df4-a3af-2ece02a60383.png",
+      "PackagePath": "staticwebassets/uploads/nfts/adae26a7-3269-4df4-a3af-2ece02a60383.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/aea74c5d-8a8d-4d2d-a5fb-677824bf1d25.png",
+      "PackagePath": "staticwebassets/uploads/nfts/aea74c5d-8a8d-4d2d-a5fb-677824bf1d25.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/b406c42b-6be7-4afd-b87b-f8d390b863c1.jpg",
+      "PackagePath": "staticwebassets/uploads/nfts/b406c42b-6be7-4afd-b87b-f8d390b863c1.jpg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/b5ef2900-efab-4f19-afcf-89f7ad23e98d.jpg",
+      "PackagePath": "staticwebassets/uploads/nfts/b5ef2900-efab-4f19-afcf-89f7ad23e98d.jpg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/b88af13a-1bc0-4661-b2ef-5c51bbf5c6cc.png",
+      "PackagePath": "staticwebassets/uploads/nfts/b88af13a-1bc0-4661-b2ef-5c51bbf5c6cc.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/uploads/nfts/c9e2f199-adba-41f2-a992-35fc63a67328.png",
+      "PackagePath": "staticwebassets/uploads/nfts/c9e2f199-adba-41f2-a992-35fc63a67328.png"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/azalka/Documents/DYAT/DYAT.Web/wwwroot/webfonts/fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets/webfonts/fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.DYAT.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.DYAT.Web.props",
+      "PackagePath": "build\\DYAT.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DYAT.Web.props",
+      "PackagePath": "buildMultiTargeting\\DYAT.Web.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DYAT.Web.props",
+      "PackagePath": "buildTransitive\\DYAT.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

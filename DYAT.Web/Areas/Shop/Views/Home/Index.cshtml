@@ -1,0 +1,243 @@
+@model DYAT.Web.Models.PaginatedList<DYAT.Domain.Entities.Product>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var minPrice = ViewBag.MinPrice as decimal? ?? 0;
+    var maxPrice = ViewBag.MaxPrice as decimal? ?? 100000;
+}
+<!-- page title start -->
+    <div class="breadcrumb-area bg-cover" style="background-image: url('~/img/bg/4.png');">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <h2 class="page-title">Shop</h2>
+                <ul class="page-list">
+                    <li><a href="/">Home</a></li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page title end -->
+
+    <!-- creator-details start -->
+    <div class="creator-details-area pd-top-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="creator-widget creator-details-widget">
+                        <h4 class="widget-title">Price Filter</h4>
+                        <form method="get" action="@Url.Action(ViewContext.RouteData.Values["id"] != null ? "Category" : "Index")">
+                            <div class="range-slider">
+                                <input type="range" id="min" name="minPrice" min="0" max="100000" value="@minPrice" class="range-input">
+                                <input type="range" id="max" name="maxPrice" min="0" max="100000" value="@maxPrice" class="range-input">
+                            </div> 
+                            <div class="d-flex justify-content-between align-items-center mt-4 pt-3">
+                                <button type="submit" class="btn btn-base">FILTER</button>
+                                <div class="slider-values">
+                                    Price : 
+                                    <span id="min-value">@minPrice.ToString("N0")</span> - <span id="max-value">@maxPrice.ToString("N0")</span>
+                                </div>
+                            </div>
+                            @if (ViewContext.RouteData.Values["id"] != null)
+                            {
+                                <input type="hidden" name="id" value="@ViewContext.RouteData.Values["id"]" />
+                            }
+                            @if (Model.PageIndex > 1)
+                            {
+                                <input type="hidden" name="page" value="@Model.PageIndex" />
+                            }
+                        </form>
+                    </div>
+                    <div class="creator-widget creator-category-widget">
+                        <h4 class="widget-title mb-4">Categories</h4>
+                        <ul>
+                            @foreach (var category in Model.Select(p => p.Category).Distinct())
+                            {
+                                <li>
+                                    <a href="@Url.Action("Category", new { id = category.Id })">
+                                        @category.Name
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>            
+                    <div class="creator-widget widget-recent-post style-2">             
+                        <h4 class="widget-title">Recent News</h4>
+                        <ul>
+                            <li>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="~/img/widget/1.png" alt="blog">
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <h6 class="title"><a href="blog-details.html">Monkey Jet</a></h6>
+                                        <div class="post-info"><span>3.05 ETH</span></div>                     
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="~/img/widget/2.png" alt="blog">
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <h6 class="title"><a href="blog-details.html">Black Coin</a></h6>
+                                        <div class="post-info"><span>3.05 ETH</span></div>                      
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <img src="~/img/widget/3.png" alt="blog">
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <h6 class="title"><a href="blog-details.html">Legendary</a></h6>
+                                        <div class="post-info"><span>3.05 ETH</span></div>                      
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="creator-widget instagram-widget">
+                        <h4 class="widget-title">Recent News</h4>
+                        <ul>
+                            <li><img src="~/img/top-auction/5.png" alt="img"></li>
+                            <li><img src="~/img/top-auction/6.png" alt="img"></li>
+                            <li><img src="~/img/top-auction/7.png" alt="img"></li>
+                            <li><img src="~/img/top-auction/8.png" alt="img"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 ps-xl-4">
+                    <div class="row mb-4 pb-lg-4">
+                        <div class="col-lg-6 align-self-center">
+                            <p class="mb-0 tt-uppercase">
+                                <span class="color-base">Showing @Model.Count()</span> of @Model.TotalItems products
+                            </p>
+                        </div>
+                        <div class="col-lg-6 align-self-center text-lg-end">
+                            <div class="filter-inner-btn">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         xmlns:xlink="http://www.w3.org/1999/xlink"
+                                         width="14px" height="15px">
+                                        <path fill-rule="evenodd" fill="rgb(207, 204, 204)"
+                                              d="M0.424,8.733 L0.424,6.267 L13.576,6.267 L13.576,8.733 L0.424,8.733 ZM0.424,0.513 L13.576,0.513 L13.576,2.979 L0.424,2.979 L0.424,0.513 ZM8.644,14.487 L0.424,14.487 L0.424,12.021 L8.644,12.021 L8.644,14.487 Z"/>
+                                    </svg>
+                                </span>
+                                <select>
+                                    <option>Recently Added</option>
+                                    <option>Price (Low to High)</option>
+                                    <option>Price (High to Low)</option>
+                                    <option>Most Popular</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @foreach (var product in Model)
+                        {
+                            <div class="col-lg-4 col-md-6">
+                                <div class="single-product-inner text-center">
+                                    <div class="thumb">
+                                        <a href="@Url.Action("Details", new { id = product.Id })">
+                                            <img src="@product.ImageUrl" alt="@product.Title">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h4 class="title">
+                                            <a href="@Url.Action("Details", new { id = product.Id })">@product.Title</a>
+                                        </h4>
+                                        <div class="ratting">
+                                            @for (int i = 0; i < 5; i++)
+                                            {
+                                                <i class="fa fa-star@(i < product.Rating ? "" : "-o")"></i>
+                                            }
+                                        </div>
+                                        <h6 class="amount">@product.Price.ToString("C")</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    
+                    @if (Model.TotalPages > 1)
+                    {
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="pagination-wrapper" aria-label="Page navigation">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item @(!Model.HasPreviousPage ? "disabled" : "")">
+                                            <a class="page-link" href="@Url.Action(ViewContext.RouteData.Values["id"] != null ? "Category" : "Index", 
+                                                new { 
+                                                    page = Model.PageIndex - 1,
+                                                    id = ViewContext.RouteData.Values["id"],
+                                                    minPrice = minPrice,
+                                                    maxPrice = maxPrice
+                                                })" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        @for (int i = 1; i <= Model.TotalPages; i++)
+                                        {
+                                            <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                                                <a class="page-link" href="@Url.Action(ViewContext.RouteData.Values["id"] != null ? "Category" : "Index", 
+                                                    new { 
+                                                        page = i,
+                                                        id = ViewContext.RouteData.Values["id"],
+                                                        minPrice = minPrice,
+                                                        maxPrice = maxPrice
+                                                    })">@i</a>
+                                            </li>
+                                        }
+                                        <li class="page-item @(!Model.HasNextPage ? "disabled" : "")">
+                                            <a class="page-link" href="@Url.Action(ViewContext.RouteData.Values["id"] != null ? "Category" : "Index", 
+                                                new { 
+                                                    page = Model.PageIndex + 1,
+                                                    id = ViewContext.RouteData.Values["id"],
+                                                    minPrice = minPrice,
+                                                    maxPrice = maxPrice
+                                                })" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- creator-details end -->
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            var minInput = document.getElementById('min');
+            var maxInput = document.getElementById('max');
+            var minValue = document.getElementById('min-value');
+            var maxValue = document.getElementById('max-value');
+
+            function updateValues() {
+                var min = parseInt(minInput.value);
+                var max = parseInt(maxInput.value);
+
+                if (min > max) {
+                    var temp = min;
+                    min = max;
+                    max = temp;
+                    minInput.value = min;
+                    maxInput.value = max;
+                }
+
+                minValue.textContent = min.toLocaleString();
+                maxValue.textContent = max.toLocaleString();
+            }
+
+            minInput.addEventListener('input', updateValues);
+            maxInput.addEventListener('input', updateValues);
+        });
+    </script>
+}

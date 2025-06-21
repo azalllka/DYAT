@@ -1,0 +1,15 @@
+/Users/azalka/Documents/DYAT/DYAT.Application/bin/Debug/net8.0/DYAT.Application.deps.json
+/Users/azalka/Documents/DYAT/DYAT.Application/bin/Debug/net8.0/DYAT.Application.dll
+/Users/azalka/Documents/DYAT/DYAT.Application/bin/Debug/net8.0/DYAT.Application.pdb
+/Users/azalka/Documents/DYAT/DYAT.Application/bin/Debug/net8.0/DYAT.Domain.dll
+/Users/azalka/Documents/DYAT/DYAT.Application/bin/Debug/net8.0/DYAT.Domain.pdb
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.csproj.AssemblyReference.cache
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.AssemblyInfoInputs.cache
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.AssemblyInfo.cs
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.csproj.CoreCompileInputs.cache
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.App.2AAE61DD.Up2Date
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.dll
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/refint/DYAT.Application.dll
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/DYAT.Application.pdb
+/Users/azalka/Documents/DYAT/DYAT.Application/obj/Debug/net8.0/ref/DYAT.Application.dll

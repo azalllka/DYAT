@@ -1,0 +1,12 @@
+/Users/azalka/Documents/DYAT/DYAT.Domain/bin/Debug/net8.0/DYAT.Domain.deps.json
+/Users/azalka/Documents/DYAT/DYAT.Domain/bin/Debug/net8.0/DYAT.Domain.dll
+/Users/azalka/Documents/DYAT/DYAT.Domain/bin/Debug/net8.0/DYAT.Domain.pdb
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.csproj.AssemblyReference.cache
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.AssemblyInfoInputs.cache
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.AssemblyInfo.cs
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.csproj.CoreCompileInputs.cache
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.dll
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/refint/DYAT.Domain.dll
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/DYAT.Domain.pdb
+/Users/azalka/Documents/DYAT/DYAT.Domain/obj/Debug/net8.0/ref/DYAT.Domain.dll

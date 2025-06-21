@@ -1,0 +1,183 @@
+@model List<DYAT.Web.Areas.Nfts.Models.NftViewModel>
+@{
+    ViewData["Title"] = "Nft";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- page title start -->
+    <div class="breadcrumb-area bg-cover" style="background-image: url('~/img/bg/4.png');">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <h2 class="page-title">Creator <span>Details</span></h2>
+                <ul class="page-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Creator Details</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page title end -->
+
+    <!-- creator-details-info start -->
+    <div class="creator-details-info pd-top-110 pd-bottom-110">
+        <div class="container">
+            <div class="d-md-flex align-self-center align-items-center">
+                <div class="thumb me-4">
+                    <img src="~/img/creator-2/13.png" alt="img">
+                </div>
+                <div class="details">
+                    <a class="details-btn" href="#"><img src="~/img/creator-2/14.png" alt="img"></a>
+                    <h3>Black Coin #0037</h3>
+                    <span class="info">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="13px" height="21px">
+                            <image  x="0px" y="0px" width="13px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAMAAACqsJS4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA51BMVEX////d8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kf///8jh+CvAAAAS3RSTlMAWAZI82EOw9MbboQk3v7rM5qzA0X8XArI2hV2/Ysw5kONonjihShOK6hHS6+tJkLF0iCevB0n6fRyHmM7UMlkZ6MBEsE58PhMB3e5VgxcAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+gJBxQOIvbIDkEAAAC0SURBVBjTTdDXEoIwEAXQVbFjBBULRcHeK9h71/3//zGJIN6HzZzZTJINAE8gCH5CQthHJIqx+E8JREx6EFNIMC25kpEKM1mOnMKFeYZCkYJQllQqTUei64wGQLlCO3QnLYIJFrIQXqsg1uqu0o0mmK22rLBGR+r2QO0PhqMxmfSmM9sBmC+Wq7U53SyWW3bhTsH9wUY8fl9m8ANP568uV4qY4w1xu+Pj6Y+rofX3E6/3ha8f+agf1l7KfqgAAAAASUVORK5CYII=" />
+                        </svg>
+                        <span class="color-base">1minutenft.eth</span> Joined Aug 2024
+                    </span>
+                    <span class="line-shadow"></span>
+                    <ul>
+                        <li><a href="#">Collected  45</a></li>
+                        <li><a href="#">Offers made</a></li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Created</a></li>
+                        <li><a href="#">Favorited</a></li>
+                        <li><a href="#">Activity</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- creator-details-info end -->
+
+    <!-- creator-details start -->
+    <div class="creator-details-area pd-top-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4">
+                    <div class="creator-widget creator-details-widget">
+                        <h4 class="creator-widget"> Filter Title </h4>
+                        <form>
+                            <div class="range-slider">
+                                <input type="range" id="min" min="0" max="100" value="10" class="range-input">
+                                <input type="range" id="max" min="0" max="100" value="90" class="range-input">
+                            </div> 
+                            <div class="d-flex justify-content-between align-items-center mt-4 pt-3">
+                                <a class="btn btn-base" href="#">FILTER</a>
+                                <div class="slider-values">
+                                    Price : 
+                                    <span id="min-value">10</span> - <span id="max-value">90</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="creator-widget creator-category-widget">
+                        <h4 class="creator-widget mb-4"> Filter Title </h4>
+                        <ul>
+                            <li><span class="dot"></span> Monkey Jet <span class="count">03</span></li>
+                            <li><span class="dot"></span> Black Coin <span class="count">08</span></li>
+                            <li><span class="dot"></span> Legendary <span class="count">06</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="row mb-4 pb-lg-3">
+                        <div class="col-lg-6 align-self-center">
+                            <p class="mb-0 tt-uppercase"><span class="color-base">showing 1 - @Model.Count</span> of @Model.Count Results</p>
+                        </div>
+                        <div class="col-lg-6 align-self-center text-lg-end">
+                            <div class="filter-inner-btn">
+                                <span>
+                                    <svg 
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        width="14px" height="15px">
+                                        <path fill-rule="evenodd"  fill="rgb(207, 204, 204)"
+                                        d="M0.424,8.733 L0.424,6.267 L13.576,6.267 L13.576,8.733 L0.424,8.733 ZM0.424,0.513 L13.576,0.513 L13.576,2.979 L0.424,2.979 L0.424,0.513 ZM8.644,14.487 L0.424,14.487 L0.424,12.021 L8.644,12.021 L8.644,14.487 Z"/>
+                                    </svg>
+                                </span>
+                                <select>
+                                    <option>shot by : Recent added</option>
+                                    <option>shot by : Recent added</option>
+                                    <option>shot by : Recent added</option>
+                                    <option>shot by : Recent added</option>
+                                    <option>shot by : Recent added</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        @foreach (var nft in Model)
+                        {
+                            <div class="col-xl-4 col-md-6">
+                                <div class="single-feature-inner style-2">
+                                    <div class="thumb text-center p-0">
+                                        <img src="@nft.ImageUrl" alt="@nft.Name">
+                                    </div>
+                                    <div class="details">
+                                        <div class="d-flex justify-content-between border-bottom-1 align-items-center pb-4 mb-4">
+                                            <div class="left d-flex justify-content-between align-items-center">
+                                                <div class="img border-radius-50 overflow-hidden me-2">
+                                                    <img src="~/img/creator-2/u-1.png" alt="@nft.Creator">
+                                                </div>
+                                                <div class="info-d">
+                                                    <h5 class="mb-0 text-white">@nft.Name</h5>
+                                                    <span>@nft.Creator</span>
+                                                </div>
+                                            </div>
+                                            <div class="right text-end">
+                                                <span class="color-base">
+                                                    @nft.Price SOL
+                                                </span>
+                                                <i class="far fa-heart"></i>    
+                                                <div class="ratting">
+                                                    @for (int i = 0; i < nft.Rating; i++)
+                                                    {
+                                                        <i class="fa fa-star"></i>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="left">
+                                                <h5 class="d-block">Highest bid</h5>
+                                                <a href="#" class="bid">
+                                                    <span class="icon"><i class="fa fa-link"></i></span>
+                                                    @nft.HighestBid <span class="color-base">ETH</span>
+                                                </a>
+                                            </div> 
+                                            <div class="right">
+                                                @if (User.Identity.IsAuthenticated)
+                                                {
+                                                    if (User.IsInRole("Admin"))
+                                                    {
+                                                        <form asp-action="Delete" method="post" style="display:inline" onsubmit="return confirm('Вы уверены, что хотите удалить этот NFT?');">
+                                                            <input type="hidden" name="id" value="@nft.Id" />
+                                                            <button type="submit" class="btn btn-danger">Удалить <i class="fa fa-trash"></i></button>
+                                                        </form>
+                                                    }
+                                                    else
+                                                    {
+                                                        <form asp-action="Buy" method="post" style="display:inline">
+                                                            <input type="hidden" name="id" value="@nft.Id" />
+                                                            <button type="submit" class="btn btn-base">Купить <i class="fa fa-arrow-right"></i></button>
+                                                        </form>
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    <a class="btn btn-base disabled" href="#">Купить <i class="fa fa-arrow-right"></i></a>
+                                                }
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- creator-details end -->

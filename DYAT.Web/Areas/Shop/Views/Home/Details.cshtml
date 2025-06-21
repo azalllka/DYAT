@@ -1,0 +1,200 @@
+@model DYAT.Domain.Entities.Product
+@{
+    ViewData["Title"] = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- page title start -->
+<div class="breadcrumb-area bg-cover" style="background-image: url('/assets/img/bg/4.png');">
+    <div class="container">
+        <div class="breadcrumb-inner">
+            <h2 class="page-title">Product <span>Details</span></h2>
+            <ul class="page-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="/Shop/Home">Shop</a></li>
+                <li>@Model.Title</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- page title end -->
+
+<!-- Product-details start -->
+<div class="product-details-area pd-top-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="product-details-wrap mb-lg-0 mb-4">
+                    <div class="swiper productmySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="thumb">
+                                    <img src="@Model.ImageUrl" alt="@Model.Title">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <div class="product-details ps-xl-4">
+                    <div class="ratting mb-2 tt-uppercase">
+                        @for (int i = 0; i < 5; i++)
+                        {
+                            if (i < Math.Floor(Model.Rating))
+                            {
+                                <i class="fa fa-star color-base"></i>
+                            }
+                            else
+                            {
+                                <i class="fa fa-star"></i>
+                            }
+                        }
+                        <span class="ms-2">@Model.Rating.ToString("F1") Rating</span>
+                    </div>
+                    <h2 class="tt-uppercase fw-500 mb-4">@Model.Title</h2>
+                    <h5 class="price mb-4"><span class="color-base me-4">$@Model.Price.ToString("F2")</span></h5>
+                    <p class="pe-xl-5">@Model.Description</p>
+                    <div class="cart-wrap border-bottom-1 pb-4 mb-3">
+                        <form asp-area="Cart" asp-controller="Home" asp-action="AddToCart" method="post" class="d-inline">
+                            <input type="hidden" name="productId" value="@Model.Id" />
+                            <input type="number" name="quantity" value="1" min="1" max="100" class="d-none" />
+                            <button type="submit" class="btn btn-base border-radius-0 tt-uppercase me-2 px-xl-5">Добавить в корзину</button>
+                        </form>
+                        <a class="btn btn-black border-radius-0 tt-uppercase" href="#"><i class="fa fa-heart ms-0"></i></a>
+                    </div>
+                    <div class="info-list-product tt-uppercase fw-500">
+                        <span>CATEGORY:</span>
+                        <a href="/Shop/Home/Category/@Model.CategoryId">@Model.Category?.Name</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product-details end -->
+
+<!-- Product-details tab start -->
+<div class="product-details-tab-area pd-top-120">
+    <div class="container">
+        <div class="product-details-tab-inner">
+            <div class="row">
+                <div class="col-md-4 pe-0">
+                    <div class="product-details-tabs-wrap">
+                        <ul class="product-details-tabs nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">DESCRIPTION</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">ADDITIONAL INFORMATION</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">REVIEWS (0)</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 p-0">
+                    <div class="tab-content product-tab-content-wrap" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="tab-content-inner">
+                                <p>@Model.Description</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="tab-content-inner">
+                                <ul class="tab-content-info-list">
+                                    <li><span>Category</span> @Model.Category?.Name</li>
+                                    <li><span>Rating</span> @Model.Rating.ToString("F1")</li>
+                                    <li><span>Created</span> @Model.CreatedAt.ToString("d")</li>
+                                    @if (Model.UpdatedAt.HasValue)
+                                    {
+                                        <li><span>Last Updated</span> @Model.UpdatedAt.Value.ToString("d")</li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="tab-content-inner">
+                                <form class="blog-comment-form mt-0 pt-0">
+                                    <div class="mb-3">
+                                        <h4>Review Here</h4>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="single-input-inner style-border">
+                                                <textarea placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="single-input-inner style-border">
+                                                <input type="text" placeholder="Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="single-input-inner style-border">
+                                                <input type="text" placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="single-input-inner style-border">
+                                                <input type="text" placeholder="Subject">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="checkbox">
+                                            Save my name, email, and website in this browser for the next time I comment.
+                                        </div>
+                                        <div class="col-12 mt-4">
+                                            <button class="btn btn-base border-radius-5">Post Comment</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product-details tab end -->
+
+<!-- product-area start -->
+<div class="product-area pd-top-100 bg-cover">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="title">RELATED <span>PRODUCTS</span></h2>
+        </div>
+        <div class="row">
+            @foreach (var relatedProduct in ViewBag.RelatedProducts ?? new List<DYAT.Domain.Entities.Product>())
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-product-inner text-center">
+                        <div class="thumb">
+                            <img src="@relatedProduct.ImageUrl" alt="@relatedProduct.Title">
+                        </div>
+                        <div class="details">
+                            <h4 class="title"><a href="/Shop/Home/Details/@relatedProduct.Id">@relatedProduct.Title</a></h4>
+                            <div class="ratting">
+                                @for (int i = 0; i < 5; i++)
+                                {
+                                    if (i < Math.Floor(relatedProduct.Rating))
+                                    {
+                                        <i class="fa fa-star color-base"></i>
+                                    }
+                                    else
+                                    {
+                                        <i class="fa fa-star"></i>
+                                    }
+                                }
+                            </div>
+                            <h6 class="amount">$@relatedProduct.Price.ToString("F2")</h6>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- product-area end --> 

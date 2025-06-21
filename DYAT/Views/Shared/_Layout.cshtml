@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DYAT</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="~/assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="~/assets/css/magnific.min.css">
+    <link rel="stylesheet" href="~/assets/css/swiper.min.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
+
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+<!-- cursor -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+<!-- cursor End -->
+
+<!-- search popup start-->
+<div class="td-search-popup" id="td-search-popup">
+    <form action="#" class="search-form">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search.....">
+        </div>
+        <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+<!-- search popup end-->
+<div class="body-overlay" id="body-overlay"></div>
+
+<!-- Подключаем хедер -->
+@await Html.PartialAsync("_Header")
+
+<!-- Основное содержимое страницы -->
+<main role="main">
+    @RenderBody()
+</main>
+
+<!-- Подключаем футер -->
+@await Html.PartialAsync("_Footer")
+
+<!-- Back to top button -->
+<div class="back-to-top">
+    <span class="back-top"><i class="fa fa-angle-up"></i></span>
+</div>
+
+<!-- JavaScript libraries -->
+<script src="~/assets/js/jquery.min.js"></script>
+<script src="~/assets/js/bootstrap.min.js"></script>
+<script src="~/assets/js/fontawesome.min.js"></script>
+<script src="~/assets/js/magnific.min.js"></script>
+<script src="~/assets/js/nice-select.min.js"></script>
+<script src="~/assets/js/swiper.min.js"></script>
+<script src="~/assets/js/counter-up.min.js"></script>
+<script src="~/assets/js/waypoint.min.js"></script>
+<script src="~/assets/js/wow.min.js"></script>
+<script src="~/assets/js/SplitText.min.js"></script>
+<script src="~/assets/js/ScrollTrigger.min.js"></script>
+<script src="~/assets/js/gsap.min.js"></script>
+<script src="~/assets/js/lenis.min.js"></script>
+
+<!-- Main JS -->
+<script src="~/assets/js/main.js"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

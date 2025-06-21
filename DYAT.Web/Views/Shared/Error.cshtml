@@ -1,0 +1,48 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var statusCode = Context.Response.StatusCode;
+    var statusMessage = statusCode == 404 ? "Page Not Found" : "Error";
+    var errorMessage = statusCode == 404 
+        ? "This standard HTTP error message code signals the website you were trying to reach couldn't be found on the server."
+        : "An error occurred while processing your request.";
+}
+
+<!-- page title start -->
+<div class="breadcrumb-area bg-cover" style="background-image: url('/img/bg/4.png');">
+    <div class="container">
+        <div class="breadcrumb-inner">
+            <h2 class="page-title">Error <span>@statusCode</span></h2>
+            <ul class="page-list">
+                <li><a href="/">Home</a></li>
+                <li>Error</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- page title end -->
+
+<!-- error area start -->
+<div class="error-area pd-top-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="error-area-inner text-center">
+                    <h3>error page</h3>
+                    <div class="thumb">
+                        <img src="/img/404.png" alt="img">
+                    </div>
+                    <h4>@statusMessage</h4>
+                    <p class="px-xl-5">@errorMessage</p>
+                    <div class="btn-box d-inline-block">
+                        <a class="btn btn-main" href="/">
+                            <span>
+                                <span>Explore More</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- error area end --> 

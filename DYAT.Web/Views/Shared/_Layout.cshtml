@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DYAT - eSports and Gaming NFT HTML Template </title>
+    <link rel=icon href="~/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link rel="stylesheet" href="~/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/css/nice-select.min.css">
+    <link rel="stylesheet" href="~/css/magnific.min.css">
+    <link rel="stylesheet" href="~/css/swiper.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+
+</head>
+<body>
+<!-- cursor -->
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+<!-- cursor End -->
+<div class="td-search-popup" id="td-search-popup">
+    @await Html.PartialAsync("_Search")
+</div>
+<div class="body-overlay" id="body-overlay"></div>
+<nav class="navbar-area navbar-area-1">
+    @await Html.PartialAsync("_Navbar")
+</nav>
+<div class="offcanvas offcanvas-menu-wrap offcanvas-end" tabindex="-1" id="offcanvasright">
+    @await Html.PartialAsync("_Canvas")
+</div>
+
+<main>
+    @RenderBody()
+</main>
+
+<footer class="footer-area footer-area-1 pd-top-110" style="background-image: url('img/footer/bg.png');">
+    @await Html.PartialAsync("_Footer")
+</footer>
+<!-- back to top area start -->
+<div class="back-to-top">
+    <span class="back-top"><i class="fa fa-angle-up"></i></span>
+</div>
+<!-- back to top area end -->
+
+<!-- all plugins here -->
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script src="~/js/fontawesome.min.js"></script>
+<script src="~/js/magnific.min.js"></script>
+<script src="~/js/nice-select.min.js"></script>
+<script src="~/js/swiper.min.js"></script>
+<script src="~/js/counter-up.min.js"></script>
+<script src="~/js/waypoint.min.js"></script>
+<script src="~/js/wow.min.js"></script>
+<script src="~/js/SplitText.min.js"></script>
+<script src="~/js/ScrollTrigger.min.js"></script>
+<script src="~/js/gsap.min.js"></script>
+<script src="~/js/lenis.min.js"></script>
+
+<!-- main js  -->
+<script src="~/js/main.js"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

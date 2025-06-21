@@ -1,0 +1,87 @@
+@model List<DYAT.Web.Areas.Nfts.Models.NftViewModel>
+@{
+    ViewData["Title"] = "Мои NFT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="breadcrumb-area bg-cover" style="background-image: url('~/img/bg/4.png');">
+    <div class="container">
+        <div class="breadcrumb-inner">
+            <h2 class="page-title">Мои <span>NFT</span></h2>
+            <ul class="page-list">
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Главная</a></li>
+                <li>Мои NFT</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="creator-details-area pd-top-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12">
+                <div class="row mb-4 pb-lg-3">
+                    <div class="col-lg-6 align-self-center">
+                        <p class="mb-0 tt-uppercase">
+                            <span class="color-base">Показано @Model.Count</span> NFT
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    @if (Model.Count == 0)
+                    {
+                        <div class="col-12">
+                            <div class="alert alert-info">У вас пока нет купленных NFT.</div>
+                        </div>
+                    }
+                    else
+                    {
+                        foreach (var nft in Model)
+                        {
+                            <div class="col-xl-4 col-md-6">
+                                <div class="single-feature-inner style-2">
+                                    <div class="thumb text-center p-0">
+                                        <img src="@nft.ImageUrl" alt="@nft.Name">
+                                    </div>
+                                    <div class="details">
+                                        <div class="d-flex justify-content-between border-bottom-1 align-items-center pb-4 mb-4">
+                                            <div class="left d-flex justify-content-between align-items-center">
+                                                <div class="img border-radius-50 overflow-hidden me-2">
+                                                    <img src="~/img/creator-2/u-1.png" alt="@nft.Creator">
+                                                </div>
+                                                <div class="info-d">
+                                                    <h5 class="mb-0 text-white">@nft.Name</h5>
+                                                    <span>@nft.Creator</span>
+                                                </div>
+                                            </div>
+                                            <div class="right text-end">
+                                                <span class="color-base">
+                                                    @nft.Price SOL
+                                                </span>
+                                                <div class="ratting">
+                                                    @for (int i = 0; i < nft.Rating; i++)
+                                                    {
+                                                        <i class="fa fa-star"></i>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="left">
+                                                <h5 class="d-block">Описание</h5>
+                                                <span>@nft.Description</span>
+                                            </div>
+                                            <div class="right">
+                                                <span class="badge bg-success">Куплено</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

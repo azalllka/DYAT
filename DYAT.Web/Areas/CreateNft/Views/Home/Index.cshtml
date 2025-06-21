@@ -1,0 +1,160 @@
+@model DYAT.Web.Areas.CreateNft.Models.CreateNftViewModel
+@{
+    ViewData["Title"] = "Создание NFT";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- page title start -->
+    <div class="breadcrumb-area bg-cover" style="background-image: url('~/img/bg/4.png');">
+        <div class="container">
+            <div class="breadcrumb-inner">
+                <h2 class="page-title">Creator <span>Details</span></h2>
+                <ul class="page-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>Creator Details</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- page title end -->
+
+    <!-- creator-details-info start -->
+    <div class="creator-details-info pd-top-110 pd-bottom-110">
+        <div class="container">
+            <div class="d-md-flex align-self-center align-items-center">
+                <div class="thumb me-4">
+                    <img src="~/img/creator-2/13.png" alt="img">
+                </div>
+                <div class="details">
+                    <a class="details-btn" href="#"><img src="~/img/creator-2/14.png" alt="img"></a>
+                    <h3>Black Coin #0037</h3>
+                    <span class="info">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="13px" height="21px">
+                            <image  x="0px" y="0px" width="13px" height="21px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAMAAACqsJS4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA51BMVEX////d8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kfd8kf///8jh+CvAAAAS3RSTlMAWAZI82EOw9MbboQk3v7rM5qzA0X8XArI2hV2/Ysw5kONonjihShOK6hHS6+tJkLF0iCevB0n6fRyHmM7UMlkZ6MBEsE58PhMB3e5VgxcAAAAAWJLR0QAiAUdSAAAAAd0SU1FB+gJBxQOIvbIDkEAAAC0SURBVBjTTdDXEoIwEAXQVbFjBBULRcHeK9h71/3//zGJIN6HzZzZTJINAE8gCH5CQthHJIqx+E8JREx6EFNIMC25kpEKM1mOnMKFeYZCkYJQllQqTUei64wGQLlCO3QnLYIJFrIQXqsg1uqu0o0mmK22rLBGR+r2QO0PhqMxmfSmM9sBmC+Wq7U53SyWW3bhTsH9wUY8fl9m8ANP568uV4qY4w1xu+Pj6Y+rofX3E6/3ha8f+agf1l7KfqgAAAAASUVORK5CYII=" />
+                        </svg>
+                        <span class="color-base">1minutenft.eth</span> Joined Aug 2024
+                    </span>
+                    <span class="line-shadow"></span>
+                    <ul>
+                        <li><a href="#">Collected  45</a></li>
+                        <li><a href="#">Offers made</a></li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Created</a></li>
+                        <li><a href="#">Favorited</a></li>
+                        <li><a href="#">Activity</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- creator-details-info end -->
+
+    <!-- create items start -->
+    <div class="creator-details-area pd-top-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4">
+                    <div class="creator-widget creator-category-widget">
+                        <h4 class="creator-widget mb-4">Preview Items</h4>
+                        <div class="single-feature-inner style-2">
+                            <div class="thumb text-center p-0">
+                                <img src="~/img/top-auction/5.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <div class="d-flex justify-content-between border-bottom-1 align-items-center pb-4 mb-4">
+                                    <div class="left d-flex justify-content-between align-items-center">
+                                        <div class="img border-radius-50 overflow-hidden me-2">
+                                            <img src="~/img/creator-2/u-1.png" alt="img">
+                                        </div>
+                                        <div class="info-d">
+                                            <h5 class="mb-0 text-white">Legendary</h5>
+                                            <span>Danil03</span>
+                                        </div>
+                                    </div>
+                                    <div class="right text-end">
+                                        <span class="color-base">
+                                            25 SOL
+                                        </span>
+                                        <i class="far fa-heart"></i>    
+                                        
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="left">
+                                        <h5 class="d-block">Highest bid</h5>
+                                        <a href="#" class="bid">
+                                            <span class="icon"><i class="fa fa-link"></i></span>
+                                            3.005 <span class="color-base">ETH</span>
+                                        </a>
+                                    </div> 
+                                    <div class="right">
+                                        <a class="btn btn-base" href="creator-details.html">BID <i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-8">
+                    <form asp-action="Create" asp-controller="Home" method="post" enctype="multipart/form-data" class="create-items-form">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                        <div class="image-upload d-md-flex justify-content-between align-items-center">
+                            <p class="mb-md-0">
+                                <img class="me-2" src="~/img/icon/13.png" alt="img">
+                                PNG, JPG, GIF, WEBP Max 40Mb.
+                            </p>
+                            <label class="upload-file">
+                                <input type="file" asp-for="ImageFile" accept=".png,.jpg,.jpeg,.gif,.webp" required>
+                                Загрузить файл
+                            </label>
+                        </div>
+                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+
+                        <div class="form-group">
+                            <input asp-for="Name" class="item-field" placeholder="Название NFT" required>
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea asp-for="Description" class="item-field" placeholder="Описание" required></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <input asp-for="ExternalLink" class="item-field" placeholder="Внешняя ссылка">
+                            <span asp-validation-for="ExternalLink" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 mt-3">
+                                <span class="tt-uppercase text-white">Трейты</span>
+                                <input asp-for="Traits" class="item-field" placeholder="Трейты">
+                                <span asp-validation-for="Traits" class="text-danger"></span>
+                            </div>
+                            <div class="col-lg-6 mt-3">
+                                <span class="tt-uppercase text-white">Текущая цена</span>
+                                <input asp-for="Price" class="item-field" type="number" step="0.000001" placeholder="0.00" required>
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-4">
+                            <button type="submit" class="btn btn-base">Создать NFT</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- create items end -->
+    

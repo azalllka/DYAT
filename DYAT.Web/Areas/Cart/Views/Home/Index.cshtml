@@ -1,0 +1,87 @@
+@model List<DYAT.Domain.Models.CartItem>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- product-cart start -->
+<div class="product-cart-area pd-top-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="product-cart-wrap">
+                    @if (!Model.Any())
+                    {
+                        <div class="alert alert-info">
+                            Ваша корзина пуста. <a href="@Url.Action("Index", "Home", new { area = "Shop" })">Перейти в магазин</a>
+                        </div>
+                    }
+                    else
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div class="media product-cart-inner">
+                                <div class="media-left">
+                                    <span class="left-img">
+                                        <span><img src="@item.Product.ImageUrl" alt="@item.Product.Title"></span>
+                                    </span>
+                                </div>
+                                <div class="media-body align-self-center">
+                                    <form asp-action="RemoveFromCart" method="post" class="d-inline">
+                                        <input type="hidden" name="productId" value="@item.Product.Id" />
+                                        <button type="submit" class="close">X</button>
+                                    </form>
+                                    <h4>@item.Product.Title</h4>
+                                    <div class="color-plate">
+                                        <div class="quantity-wrap">
+                                            <form asp-action="UpdateQuantity" method="post" class="d-inline">
+                                                <input type="hidden" name="productId" value="@item.Product.Id" />
+                                                <div class="quantity">
+                                                    <input type="number" name="quantity" step="1" min="1" max="100" value="@item.Quantity" 
+                                                           title="Qty" class="input-text qty text" onchange="this.form.submit()">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="amount-area d-flex justify-content-between mt-lg-5 mt-4">
+                                        <span class="color-base">@item.TotalPrice.ToString("C")</span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="col-lg-4 ps-xl-5">
+                <div class="order-samary mb-3">
+                    <ul>
+                        <li><h4>Сводка заказа</h4></li>
+                        <li>
+                            <span>Подытог</span>
+                            <span>@ViewBag.TotalPrice.ToString("C")</span>
+                        </li>
+                        <li>
+                            <span>НДС (20%)</span>
+                            <span>@((ViewBag.TotalPrice * 0.2m).ToString("C"))</span>
+                        </li>
+                        <li>
+                            <span>Итого</span>
+                            <span>@((ViewBag.TotalPrice * 1.2m).ToString("C"))</span>
+                        </li>
+                        @if (Model.Any())
+                        {
+                            <li>
+                                <form asp-action="ClearCart" method="post" class="w-100">
+                                    <button type="submit" class="btn btn-danger w-100 mt-2">Очистить корзину</button>
+                                </form>
+                                <a class="btn btn-base w-100 mt-4" href="@Url.Action("Checkout", "Home", new { area = "Cart" })">Оформить заказ</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <h4 class="tt-uppercase fw-600 mb-3">Принимаемые платежи</h4>
+                <img src="~/img/payment-method.png" alt="img">
+                <h4 class="tt-uppercase fw-600 mt-5">Бесплатный и простой <span class="color-base">возврат</span></h4>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- product-cart end -->
